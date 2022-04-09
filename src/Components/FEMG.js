@@ -1,11 +1,41 @@
 import React from "react";
 import { BsGithub } from "react-icons/bs";
 import { FiExternalLink } from "react-icons/fi";
+import { useEffect } from "react";
+import { useInView } from "react-intersection-observer";
+import { motion } from "framer-motion";
+import { useAnimation } from "framer-motion";
 
 const FEMG = () => {
+  const { ref, inView } = useInView({
+    threshhold: 0.2,
+  });
+  const animation = useAnimation();
+
+  useEffect(() => {
+    if (inView) {
+      animation.start({
+        x: 0.001,
+        transition: {
+          type: "spring",
+          duration: 2,
+          bounce: 0.5,
+        },
+      });
+    }
+    if (!inView) {
+      animation.start({
+        x: "+100vw",
+      });
+    }
+  }, [inView]);
+
   return (
-    <div>
-      <div className="bg-white p-12 rounded-3xl shadow-xl shadow-gray-400 mb-20">
+    <div ref={ref}>
+      <motion.div
+        animate={animation}
+        className="bg-white p-12 rounded-3xl shadow-xl shadow-gray-400 mb-20"
+      >
         <div>
           <img
             src={require("../images/femg_ss.png")}
@@ -46,7 +76,7 @@ const FEMG = () => {
             </p>
           </div>
         </div>
-      </div>
+      </motion.div>
     </div>
   );
 };
