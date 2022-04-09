@@ -7,8 +7,8 @@ import Projects from "./Components/Projects";
 const App = () => {
   return (
     <div>
-      <Mainpage />
-      <div className="absolute w-full bg-slate-100">
+      <Mainpage className="z-10" />
+      <div className="absolute w-full bg-slate-100 z-50">
         <About />
         <Skills />
         <Projects />

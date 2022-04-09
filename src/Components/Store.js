@@ -7,7 +7,11 @@ const Store = () => {
     <div>
       <div className="bg-white p-12 rounded-3xl shadow-xl shadow-gray-400 mb-20">
         <div>
-          <img src={require("../images/store_ss.png")} alt="" />
+          <img
+            src={require("../images/store_ss.png")}
+            alt="Online Store"
+            className="rounded-xl"
+          />
         </div>
         <div className="text-right mt-2">
           <BsGithub className="inline w-5 h-5 mr-2 cursor-pointer transition ease-in-out hover:-translate-y-1 hover:scale-105" />

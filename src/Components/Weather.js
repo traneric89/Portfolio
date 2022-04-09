@@ -7,7 +7,11 @@ const Weather = () => {
     <div>
       <div className="bg-white p-12 rounded-3xl shadow-xl shadow-gray-400 mb-20">
         <div>
-          <img src={require("../images/weather_app_ss.png")} alt="" />
+          <img
+            src={require("../images/weather_app_ss.png")}
+            alt="Weather App"
+            className="rounded-xl"
+          />
         </div>
         <div className="text-right mt-2">
           <BsGithub className="inline w-5 h-5 mr-2 cursor-pointer transition ease-in-out hover:-translate-y-1 hover:scale-105" />
@@ -26,7 +30,7 @@ const Weather = () => {
               WeatherAPI
             </span>
           </div>
-          <div className=" w-2/4 mx-auto">
+          <div className=" w-3/4 mx-auto">
             <p className="leading-8">
               Weather application that displays current weather of any searched
               city. Data is fetched using WeatherAPI.

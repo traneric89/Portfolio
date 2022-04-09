@@ -2,6 +2,7 @@ import React from "react";
 import Weather from "./Weather";
 import Store from "./Store";
 import MemoryGame from "./MemoryGame";
+import FEMG from "./FEMG";
 
 const Projects = () => {
   return (
@@ -10,6 +11,7 @@ const Projects = () => {
       <Weather />
       <Store />
       <MemoryGame />
+      <FEMG />
     </div>
   );
 };
