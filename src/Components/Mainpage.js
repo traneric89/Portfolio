@@ -16,10 +16,18 @@ const Mainpage = () => {
             Engineer + Developer
           </h2>
           <div className="flex justify-evenly mt-24">
-            <BsGithub className="w-10 h-10 p-1 rounded-lg bg-white  text-black transition ease-in-out hover:-translate-y-1 hover:scale-105 z-50 cursor-pointer" />
-            <BsLinkedin className="w-10 h-10 p-1 rounded-lg bg-white text-blue-600 transition ease-in-out hover:-translate-y-1 hover:scale-105 z-50 cursor-pointer" />
-            <BsTwitter className="w-10 h-10 p-1 rounded-lg bg-white text-blue-400 transition ease-in-out hover:-translate-y-1 hover:scale-105 z-50 cursor-pointer" />
-            <SiGmail className="w-10 h-10 p-1 rounded-lg bg-white text-red-500 transition ease-in-out hover:-translate-y-1 hover:scale-105 z-50 cursor-pointer" />
+            <a href="https://github.com/traneric89" target="_blank">
+              <BsGithub className="w-10 h-10 p-1 rounded-lg bg-white  text-black transition ease-in-out hover:-translate-y-1 hover:scale-105 z-50 cursor-pointer" />
+            </a>
+            <a href="https://www.linkedin.com/in/eric-tran89/" target="_blank">
+              <BsLinkedin className="w-10 h-10 p-1 rounded-lg bg-white  text-blue-600 transition ease-in-out hover:-translate-y-1 hover:scale-105 z-50 cursor-pointer" />
+            </a>
+            <a href="https://twitter.com/cndprogrammer" target="_blank">
+              <BsTwitter className="w-10 h-10 p-1 rounded-lg bg-white  text-sky-400 transition ease-in-out hover:-translate-y-1 hover:scale-105 z-50 cursor-pointer" />
+            </a>
+            <a href="mailto:traneric89@gmail.com" target="_blank">
+              <SiGmail className="w-10 h-10 p-1 rounded-lg bg-white  text-red-500 transition ease-in-out hover:-translate-y-1 hover:scale-105 z-50 cursor-pointer" />
+            </a>
           </div>
         </div>
       </div>

@@ -14,11 +14,15 @@ const FEMG = () => {
           />
         </div>
         <div className="text-right mt-2">
-          <BsGithub className="inline w-5 h-5 mr-2 cursor-pointer transition ease-in-out hover:-translate-y-1 hover:scale-105" />
-          <FiExternalLink className="inline w-5 h-5 cursor-pointer transition ease-in-out hover:-translate-y-1 hover:scale-105" />
+          <a href="https://github.com/traneric89/FEMG" target="_blank">
+            <BsGithub className="inline w-5 h-5 mr-2 cursor-pointer transition ease-in-out hover:-translate-y-1 hover:scale-105" />
+          </a>
+          <a href="https://traneric89.github.io/FEMG/" target="_blank">
+            <FiExternalLink className="inline w-5 h-5 cursor-pointer transition ease-in-out hover:-translate-y-1 hover:scale-105" />
+          </a>
         </div>
-        <div className="px-16 mt-8 text-center">
-          <h2 className="mb-3 text-2xl tracking-wide">Formula EMG</h2>
+        <div className="px-16 text-center">
+          <h2 className="mb-3 text-3xl tracking-wide">Formula EMG</h2>
           <div className="my-5">
             <span className="bg-red-400 text-white p-1.5 rounded-2xl text-sm mx-2">
               NodeJS
@@ -31,7 +35,7 @@ const FEMG = () => {
             </span>
           </div>
           <div className=" w-3/4 mx-auto">
-            <p className="leading-8">
+            <p className="leading-8 text-lg">
               This application was created for my Engineering Capstone Project.
               An RC car was custom built to function based off of real human
               electromyography (EMG) signals. This web application displays the
