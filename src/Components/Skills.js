@@ -14,8 +14,8 @@ import { FaNodeJs, FaGitAlt, FaNpm } from "react-icons/fa";
 
 const Skills = () => {
   return (
-    <div className="w-4/5 mx-auto mt-32 px-56">
-      <h1 className="text-4xl mb-20 tracking-wide">Skills</h1>
+    <div className="w-4/5 mx-auto mt-32 xl:px-32">
+      <h1 className="text-5xl mb-20 tracking-wide">Skills</h1>
       <div className="grid grid-cols-4 gap-8 bg-white py-16 rounded-3xl shadow-xl shadow-gray-400">
         <div className="flex flex-col items-center transition ease-in-out hover:-translate-y-1 hover:scale-105">
           <SiHtml5 className="w-11 h-11 text-orange-600 " />

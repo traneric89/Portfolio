@@ -9,7 +9,7 @@ const Mainpage = () => {
       <div className="relative z-10">
         <ParticleBackground />
       </div>
-      <div className="flex h-screen w-screen pl-96 items-center z-10">
+      <div className="flex h-screen w-screen items-center justify-center xl:pr-96 z-10">
         <div className="text-left">
           <h1 className="text-white text-9xl tracking-wide my-5">Eric Tran</h1>
           <h2 className="text-white text-6xl tracking-wide">
