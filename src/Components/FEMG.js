@@ -33,10 +33,12 @@ const FEMG = () => {
           <div className=" w-3/4 mx-auto">
             <p className="leading-8">
               This application was created for my Engineering Capstone Project.
-              An RC was custom built to function based off of real human
+              An RC car was custom built to function based off of real human
               electromyography (EMG) signals. This web application displays the
               player's name and lap time and sorts by fastest lap encouraging
-              competition between participants.
+              competition between participants. Data is sent from an ultrasonic
+              sensor connected with an Arduino to a backend NodeJS server. The
+              values are then served client-side using Express and Socket.IO.
             </p>
           </div>
         </div>
