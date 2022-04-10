@@ -15,7 +15,7 @@ const Mainpage = () => {
           <h2 className="text-white text-6xl tracking-wide">
             Engineer + Developer
           </h2>
-          <div className="flex justify-evenly mt-24">
+          <div className="flex justify-evenly mt-24 z-20">
             <a href="https://github.com/traneric89" target="_blank">
               <BsGithub className="w-10 h-10 p-1 rounded-lg bg-white  text-black transition ease-in-out hover:-translate-y-1 hover:scale-105 z-50 cursor-pointer" />
             </a>

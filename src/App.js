@@ -6,7 +6,7 @@ import Projects from "./Components/Projects";
 
 const App = () => {
   return (
-    <div className="font-montserrat">
+    <div className="font-montserrat scrollbar scrollbar-thumb-gray-900 scrollbar-track-gray-100">
       <Mainpage className="z-10" />
       <div className="absolute w-full bg-slate-100 z-50">
         <About />

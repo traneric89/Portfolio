@@ -69,7 +69,7 @@ const MemoryGame = () => {
               A fun and playful game that tests your memory of NBA teams!
               Players must click on a team logo but never the same logo twice.
               The application keeps track of the current score as well as the
-              session high score using UseState and UseEffect.
+              session high score using UseState and UseEffect hooks.
             </p>
           </div>
         </div>

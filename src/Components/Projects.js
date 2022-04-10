@@ -6,7 +6,7 @@ import FEMG from "./FEMG";
 
 const Projects = () => {
   return (
-    <div className="w-4/5 mx-auto mt-32 xl:px-32">
+    <div className="w-4/5 mx-auto mt-32 xl:px-32 overflow-x-hidden">
       <h1 className="text-5xl mb-20 tracking-wide font-playfair">Projects</h1>
       <Weather />
       <Store />
