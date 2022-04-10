@@ -11,8 +11,10 @@ const Mainpage = () => {
       </div>
       <div className="flex h-screen w-screen items-center justify-center xl:pr-96 z-10">
         <div className="text-left">
-          <h1 className="text-white text-9xl tracking-wide my-5">Eric Tran</h1>
-          <h2 className="text-white text-6xl tracking-wide">
+          <h1 className="text-white text-6xl md:text-9xl tracking-wide my-5">
+            Eric Tran
+          </h1>
+          <h2 className="text-white text-4xl md:text-6xl tracking-wide">
             Engineer + Developer
           </h2>
           <div className="flex justify-evenly mt-24 z-20">

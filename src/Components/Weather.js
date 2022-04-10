@@ -51,9 +51,11 @@ const Weather = () => {
             <FiExternalLink className="inline w-5 h-5 cursor-pointer transition ease-in-out hover:-translate-y-1 hover:scale-105" />
           </a>
         </div>
-        <div className="px-16 text-center">
-          <h2 className="mb-3 text-3xl tracking-wide">Weather App</h2>
-          <div className="my-5">
+        <div className="px-0 md:px-16 text-center">
+          <h2 className="mb-3 text-2xl md:text-3xl tracking-wide">
+            Weather App
+          </h2>
+          <div className="flex justify-center my-5">
             <span className="bg-blue-500 text-white p-1.5 rounded-2xl text-sm mx-2">
               Javascript
             </span>
