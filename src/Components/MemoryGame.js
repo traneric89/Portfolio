@@ -51,7 +51,7 @@ const MemoryGame = () => {
             <FiExternalLink className="inline w-5 h-5 cursor-pointer transition ease-in-out hover:-translate-y-1 hover:scale-105" />
           </a>
         </div>
-        <div className="px-0 md:px-16 text-center">
+        <div className="px-0 text-center">
           <h2 className="mb-3 text-2xl md:text-3xl tracking-wide">
             NBA Memory Game
           </h2>

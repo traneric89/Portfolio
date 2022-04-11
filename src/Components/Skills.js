@@ -14,7 +14,7 @@ import { FaNodeJs, FaGitAlt, FaNpm } from "react-icons/fa";
 
 const Skills = () => {
   return (
-    <div className="w-4/5 mx-auto mt-32 xl:px-32">
+    <div className="w-4/5 mx-auto mt-32 2xl:px-32">
       <h1 className="text-5xl mb-20 tracking-wide font-playfair">Skills</h1>
       <div className="grid grid-cols-4 gap-4 md:gap-8 bg-white py-12 md:py-16 rounded-3xl shadow-xl shadow-gray-400">
         <div className="flex flex-col items-center transition ease-in-out hover:-translate-y-1 hover:scale-105">
