@@ -1,10 +1,10 @@
 const particlesConfig = {
   particles: {
     number: {
-      value: 142,
+      value: 110,
       density: {
         enable: true,
-        value_area: 631.3181133058181,
+        value_area: 1000,
       },
     },
     color: {
@@ -40,21 +40,21 @@ const particlesConfig = {
       random: true,
       anim: {
         enable: false,
-        speed: 26.373626373626376,
+        speed: 10,
         size_min: 0.1,
         sync: false,
       },
     },
     line_linked: {
       enable: true,
-      distance: 157.82952832645452,
+      distance: 120,
       color: "#ffffff",
       opacity: 0.4,
       width: 1,
     },
     move: {
       enable: true,
-      speed: 1.5782952832645452,
+      speed: 2,
       direction: "none",
       random: true,
       straight: false,
@@ -71,31 +71,31 @@ const particlesConfig = {
     detect_on: "canvas",
     events: {
       onhover: {
-        enable: true,
+        enable: false,
         mode: "grab",
       },
       onclick: {
         enable: false,
         mode: "push",
       },
-      resize: true,
+      resize: false,
     },
     modes: {
       grab: {
-        distance: 316.71011279752463,
+        distance: 50,
         line_linked: {
           opacity: 1,
         },
       },
       bubble: {
-        distance: 400,
+        distance: 50,
         size: 40,
         duration: 2,
         opacity: 8,
         speed: 3,
       },
       repulse: {
-        distance: 200,
+        distance: 50,
         duration: 0.4,
       },
       push: {
